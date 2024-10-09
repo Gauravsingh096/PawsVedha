@@ -1,0 +1,223 @@
+/*main.css
+*/
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ca9cff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .paraa-1{
+    font-size: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    font-style:italic;
+  
+    color: #f870ef;
+    margin-bottom: 20px;
+    
+    
+  
+  }
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 85px;
+    height: auto;
+    margin-right: 10px;
+    padding-right: 1rem;
+    border-radius: 50%;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .checkbox-group input {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  
+  .checkbox-group label {
+    margin-right: auto;
+    margin-left: 10px;
+  }
+  
+  .checkbox-group a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .checkbox-group a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #981d98;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background-color: #ac6cda;
+  }
+  
+  .social-login {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .social-login span {
+    margin-right: 10px;
+  }
+  
+  .social-icon {
+    width: 45px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  hr {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .signup-link {
+    text-align: center;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .right-section {
+    display: none;
+  }
+  
+  .dog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    opacity: 0.8;
+  }
+  
+  @media (min-width: 768px) {
+    .login-container {
+      flex-direction: row;
+    }
+  
+    .left-section {
+      width: 60%;
+    }
+  
+    .right-section {
+      display: flex;
+      width: 40%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .checkbox-group input {
+      margin-left: 0;
+    }
+  
+    .dog-image {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .logo {
+      width: 100px;
+    }
+  
+    .form-container {
+      padding: 30px;
+    }
+  
+    .login-btn {
+      font-size: 1.2em;
+    }
+  
+    .social-icon {
+      width: 50px;
+    }
+  }
+  
+  
