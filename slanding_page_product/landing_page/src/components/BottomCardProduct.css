@@ -1,0 +1,158 @@
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ecd5fb75;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 15px;
+  }
+  /*
+  .bottom-product-card .card-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .bottom-product-card .card-content {
+    padding: 20px;
+  }
+  
+  .bottom-product-card .card-content h3 {
+    font-size: px;
+    margin-bottom: 5px;
+
+  }
+  
+  .bottom-product-card .card-content .about {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+  }
+  
+  .bottom-product-card .card-content .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .bottom-product-card .card-content button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bottom-product-card .card-content button:hover {
+    background-color: #45a049;
+  }
+   */
+
+
+  /* slider.css */
+
+
+   .product-slider-container {
+    margin-top: 20px;
+  }
+  
+  .product-slider {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 20%; 
+    padding: 10px;
+    text-align: left;
+    background-color: #f6c9f665;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slide h3 {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .slide .about {
+    font-style: italic;
+    color: #000000;
+    font-weight: bolder;
+  }
+  
+  .slide .price {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #682d88;
+    margin-bottom: 5px;
+  }
+  
+  .slide button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 12rem;
+    margin-bottom: 5px;
+    margin-top: -1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slide button:hover {
+    background-color: #e5a4e3;
+  }
+  
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(232, 210, 253, 0.7);
+    border: none;
+    color: #000000;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1;   }
+  
+  .slider-btn.prev {
+    left: 15px;
+  }
+  
+  .slider-btn.next {
+    right: 15px;
+  }
+    
+
+    

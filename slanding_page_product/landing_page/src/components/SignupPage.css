@@ -1,0 +1,69 @@
+.signup-page {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightpurple;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .cat-image {
+    width: 200px;
+  }
+  
+  .card {
+    background-color: crimson;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  
+  .back-link {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  .signup-button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .signup-button:hover {
+    background-color: darkpurple;
+  }
+  

@@ -1,0 +1,190 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background-color: #AC9FBB;
+  color: white;
+  box-shadow: 10px 2px 10px 2px black;
+  width: 100%;
+}
+
+.logo,
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+.logi {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.add-icon {
+  height: 50px;
+  font-size: large;
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 18px;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  padding: 0 10px;
+  border-radius: 18px;
+}
+
+.icon ul {
+  list-style: none;
+  display: flex;
+  margin-left: 3rem; 
+}
+
+  
+.icon ul li {
+  margin-left: 10px;
+}
+
+.header1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.h {
+  text-decoration: none;
+  color: black;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 238px;
+  background-color: #AC9FBB;
+  color: white;
+  width: 100%;
+}
+
+.header2 img {
+  width: 250px;
+  height: 226px;
+}
+
+.text {
+  font-size: 2rem;
+  text-align: center;
+  flex: 1;
+}
+
+.dog {
+  position: relative;
+  z-index: 1;
+  margin-right: -50px;
+}
+
+.parrot {
+  position: relative;
+  z-index: 2;
+  margin-left: 19px;
+}
+
+.rabbit {
+  position: relative;
+  z-index: 3;
+  width: 200px;
+  margin-left: -50px;
+  margin-top: 50px;
+}
+
+.cat {
+  position: relative;
+  z-index: 2;
+  width: 20px;
+  margin-left: -170px;
+  height: 210px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .nav-search {
+    max-width: 200px;
+  }
+
+  .header1 {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .header2 img {
+    width: 90px;
+    height: 100px;
+  }
+
+  .text {
+    font-size: 1.5rem;
+  }
+
+  .dog {
+    margin-right: -25px;
+  }
+
+  .parrot {
+    margin-left: 10px;
+  }
+
+  .rabbit {
+    width: 80px;
+    margin-left: -40px;
+  }
+
+  .cat {
+    width: 80px;
+    margin-left: -80px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-search {
+    max-width: 150px;
+  }
+
+  .header2 {
+    height: 250px;
+  }
+
+  .header2 img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .text {
+    font-size: 1.2rem;
+  }
+
+  .rabbit {
+    width: 10px;
+  }
+
+  .cat {
+    width: 70px;
+    margin-left: 0;
+    height: 60px;
+  }
+}
