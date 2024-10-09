@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Dog Breeds</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .dropdown {
+      border: 1px solid #ccc;
+      max-height: 200px;
+      overflow-y: auto;
+      display: none;
+    }
+    .dropdown div {
+      padding: 10px;
+      cursor: pointer;
+    }
+    .dropdown div:hover {
+      background-color: #f0f0f0;
+    }
+    .breed-details {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Search Dog Breeds</h1>
+  <input type="text" id="search" placeholder="Search..." autocomplete="off">
+  <div class="dropdown" id="dropdown"></div>
+  <div class="breed-details" id="breed-details"></div>
+
+  <script>
+    const searchInput = document.getElementById('search');
+    const dropdown = document.getElementById('dropdown');
+    const breedDetailsDiv = document.getElementById('breed-details');
+
+    searchInput.addEventListener('input', async () => {
+      const query = searchInput.value;
+      if (!query) {
+        dropdown.style.display = 'none';
+        return;
+      }
+
+      const response = await fetch(`http://localhost:5000/search?q=${query}`);
+      const results = await response.json();
+
+      dropdown.innerHTML = '';
+      if (results.length > 0) {
+        results.forEach(result => {
+          const item = document.createElement('div');
+          item.textContent = result.breed;
+          item.addEventListener('click', async () => {
+            searchInput.value = result.breed;
+            dropdown.style.display = 'none';
+
+            const breedResponse = await fetch(`http://localhost:5000/breed-details?breed=${result.breed}`);
+            const breedDetails = await breedResponse.json();
+
+            // console.log('Breed details:', breedDetails);
+
+            breedDetailsDiv.innerHTML = `<h2>${breedDetails.breed}</h2><p>${breedDetails.details}</p>`;
+
+          });
+          dropdown.appendChild(item);
+        });
+        dropdown.style.display = 'block';
+      } else {
+        dropdown.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

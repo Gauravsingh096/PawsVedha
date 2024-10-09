@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "66479131bb4103c72804391e"
+  },
+  "breed": "Labrador Retriever",
+  "details": "Friendly, outgoing, and high-spirited companions.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66479131bb4103c72804391f"
+  },
+  "breed": "German Shepherd",
+  "details": "Confident, courageous, and intelligent working dog.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66479131bb4103c728043920"
+  },
+  "breed": "Golden Retriever",
+  "details": "Intelligent, friendly, and devoted sporting breed.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66479131bb4103c728043921"
+  },
+  "breed": "French Bulldog",
+  "details": "Adaptable, playful, and smart with a distinctive bat ear.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66479131bb4103c728043922"
+  },
+  "breed": "Bulldog",
+  "details": "Docile, willful, and friendly with a distinctive pushed-in nose.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66479131bb4103c728043923"
+  },
+  "breed": "Poodle",
+  "details": "Active, proud, and very smart. Comes in three sizes.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66479131bb4103c728043924"
+  },
+  "breed": "Beagle",
+  "details": "Curious, friendly, and merry with a great sense of smell.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66479131bb4103c728043925"
+  },
+  "breed": "Rottweiler",
+  "details": "Confident, fearless, and good-natured guard dog.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66479131bb4103c728043926"
+  },
+  "breed": "German Shorthaired Pointer",
+  "details": "Friendly, smart, and willing to please.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66479131bb4103c728043927"
+  },
+  "breed": "Yorkshire Terrier",
+  "details": "Feisty, affectionate, and small with a big personality.",
+  "__v": 0
+}]

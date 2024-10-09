@@ -1,0 +1,83 @@
+
+.horizontal-slider {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px 0;
+}
+
+.horizontal-slider::-webkit-scrollbar {
+  height: 10px;
+}
+
+.horizontal-slider::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 5px;
+}
+
+.horizontal-slider::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+.slider-container {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.new-product-card {
+  background-color: #fff;
+  padding: 3em;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative; /* Added */
+}
+
+.new-product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.new-product-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.new-product-card p {
+  margin: 5px 0;
+  text-align: left;
+}
+
+.new-product-card .rating {
+  margin: 10px 0;
+  text-align: left;
+  color: #fff700;
+  font-size: 1.5em;
+}
+
+.new-product-card button {
+  background-color: #bc65f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10em;
+}
+
+.new-product-card button:hover {
+  background-color: #0056b3;
+}
+
+.cart-icon {
+  position: absolute;
+  top: 21rem; 
+  right: 18px; 
+  width:3.1em; 
+  height: 30px;
+  border: 1px solid black; 
+  background-color: #f6dcf8;
+  border-radius: 30%; 
+}
