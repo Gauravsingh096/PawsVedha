@@ -1,0 +1,78 @@
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 16px auto;
+    padding:5em;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background-color: rgb(234, 241, 241);
+  }
+  
+  .noteBox {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 3px solid rgb(47, 130, 255);
+    border-left: 10px solid rgb(47, 130, 255);
+    display: flex;
+    align-items: center;
+  }
+  
+  .noteText {
+    color: #333;
+    padding: 8px;
+  }
+  h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:16px;
+  }
+  .iconic{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:16px;
+    gap: 4px;
+  }
+  
+  .instructions {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .instruction {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 8px;    
+  }
+.instruction1{ 
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    gap: 8px; }
+
+  
+  .expireText {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .progressBar {
+    height: 5px;
+    background-color: #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    width: 10%;
+    height: 100%;
+    background-color: #4caf50;
+  }
+  

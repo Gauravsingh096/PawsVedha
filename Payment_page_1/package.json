@@ -1,0 +1,14 @@
+{
+  "name": "payment_page_1",
+  "version": "1.0.0",
+  "description": "payment page for pawsveda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gaurav",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2"
+  }
+}
