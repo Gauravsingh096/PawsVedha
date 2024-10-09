@@ -1,0 +1,243 @@
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .login-box {
+    display: flex;
+    background-color: #ebadf5cf;
+    padding: 32px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 16px rgba(5, 5, 5, 0.8);
+  }
+  
+  .form-section {
+    padding: 24px;
+    width: 300px;
+    background-color: #eeebee;
+    border-radius: 25px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    margin-left: -8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin: 10px 0;
+    color: #5d00ff;
+    text-decoration:underline;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #602cb8;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .divider {
+    margin: 24px 0;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .dog-image {
+    width: 300px;
+    height: auto;
+    border-radius: 24px;
+    margin-left: 48px;
+  }
+  
+  .sign-up {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    font-weight: bold;
+    color: #5d00ff;
+    font-size: larger;
+    text-decoration: none;
+  }
+  .social-login img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+   */
+
+   .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 16px; /* Add some padding for smaller screens */
+  }
+  
+  .login-box {
+    display: flex;
+    flex-direction: column; /* Change to column layout for smaller screens */
+    background-color: #ebadf5cf;
+    padding: 48px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 16px rgba(5, 5, 5, 0.8);
+    width: 100%;
+    max-width: 600px; /* Add a max-width for better responsiveness */
+    margin: 0 16px; /* Add some margin for smaller screens */
+  }
+  
+  .form-section {
+    padding: 16px;
+    background-color: #eeebee;
+    border-radius: 20px;
+    width:auto;
+    min-width: 280px; 
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the logo for smaller screens */
+  }
+  
+  .logo-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .input {
+    width: 95%; /* Make it take full width */
+    padding: 12px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    margin-left:-4px;
+    border: 1px solid #928e8e;
+    border-radius: 10px;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin: 10px 0;
+    color: #5d00ff;
+    text-decoration: underline;
+  }
+  
+  .login-button {
+    width: 100%; /* Make it take full width */
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #602cb8;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .divider {
+    margin: 24px 0;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .dog-image {
+    width: 100%; /* Make it take full width */
+    height: auto;
+    border-radius: 24px;
+    margin-top: 24px; /* Add some margin for spacing */
+  }
+  
+  .sign-up {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    font-weight: bold;
+    color: #5d00ff;
+    font-size: larger;
+    text-decoration: none;
+  }
+  
+  .social-login img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (min-width: 600px) {
+    .login-box {
+      flex-direction: row; /* Change to row layout for larger screens */
+      justify-content: space-between; /* Space between elements */
+    }
+  
+    .form-section {
+      width: 300px;
+ /* Set a fixed width for larger screens */
+    }
+  
+    .dog-image {
+      width: 200px; /* Set a fixed width for larger screens */
+      margin-left: 24px; /* Add some margin for spacing */
+    }
+  }
+
+  @media (max-width: 768px)
+  {
+    .login-box {
+      flex-direction: column;
+    }
+    .form-section{
+      width: 100%;
+      margin-top:6em;
+      padding: 12px;
+    }
+
+  }
